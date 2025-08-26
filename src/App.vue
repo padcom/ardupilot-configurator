@@ -282,7 +282,7 @@ import.meta.hot?.on('status-text', data => {
       color: #35495e;
 
       &.param-id {
-        width: 300px;
+        width: 192px;
 
         &.reboot {
           font-weight: bold;
@@ -290,7 +290,7 @@ import.meta.hot?.on('status-text', data => {
       }
 
       &.param-value {
-        width: 400px;
+        width: 350px;
 
         &.modified input,
         &.modified .multiselect__tags,
