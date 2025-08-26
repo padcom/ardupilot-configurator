@@ -36,6 +36,6 @@
   },
   "dependencies": {
     "mavlink-mappings": "^1.0.21-20250824-1",
-    "node-mavlink": "^2.2.0"
+    "node-mavlink": "2.3.0"
   }
 }

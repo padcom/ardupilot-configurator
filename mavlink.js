@@ -1,4 +1,4 @@
-import { MavSitl, minimal, common, ardupilotmega } from 'node-mavlink'
+import { MavTCP, minimal, common, ardupilotmega } from 'node-mavlink'
 
 /** @type {import("node-mavlink").MavLinkPacketRegistry} */
 const REGISTRY = {
@@ -14,7 +14,7 @@ const REGISTRY = {
  */
 // eslint-disable-next-line max-lines-per-function
 export default async function mavlink() {
-  const connection = new MavSitl()
+  const connection = new MavTCP()
   await connection.start()
 
   console.log('Connected to SITL')
